@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Jharkhand Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="index.html" class="logo">Jharkhand<span>Explorer</span></a>
+        <nav class="nav-container">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <!-- <li><a href="festivals.html">Festivals</a></li> -->
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">AI Planner</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+            <a href="contact.html" class="plan-trip-btn">Plan Trip</a>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://picsum.photos/seed/gallery-banner/1200/400');">
+            <h1>Photo Gallery</h1>
+        </section>
+
+        <section class="site-section">
+            <div class="section-container">
+                <div class="full-gallery-grid">
+                    <img src="https://picsum.photos/seed/pic1/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic2/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic3/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic4/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic5/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic6/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic7/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic8/400/300" alt="Gallery Image">
+                    <img src="https://picsum.photos/seed/pic9/400/300" alt="Gallery Image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="box-container">
+          <div class="box">
+              <h3>Jharkhand<span>Explorer</span> <i class="fa fa-globe"></i></h3>
+              <p>Feel free to follow us on our social media handlers. All the links are given below.</p>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>  
+          <div class="box">
+              <h3>Contact Info</h3>
+              <a href="#" class="footer-link"><i class="fa fa-phone"></i> +91 9798205836</a>
+              <a href="#" class="footer-link"><i class="fa fa-envelope"></i> kumarrahul11@gmail.com</a>
+              <a href="#" class="footer-link"><i class="fa fa-map-marker"></i> Ranchi, India</a>
+          </div>
+          <div class="box">
+              <h3>Quick Links</h3>
+              <a href="about.html" class="footer-link"><i class="fa fa-arrow-right"></i> About</a>
+              <a href="destinations.html" class="footer-link"><i class="fa fa-arrow-right"></i> Destinations</a>
+              <a href="gallery.html" class="footer-link"><i class="fa fa-arrow-right"></i> Gallery</a>
+              <a href="blog.html" class="footer-link"><i class="fa fa-arrow-right"></i> Blog</a>
+              <a href="contact.html" class="footer-link"><i class="fa fa-arrow-right"></i> Contact</a>
+          </div>
+      </div>
+      <div class="credit">
+        <p>Powered by Jharkhand Tourism Board</p>
+        Copyright © 2024 JharkhandExplorer. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

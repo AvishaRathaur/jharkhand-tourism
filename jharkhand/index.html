@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jharkhand Explorer - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+  }
+}
+</script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Jharkhand<span>Explorer</span></a>
+    <nav class="nav-container">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <!-- <li><a href="festivals.html">Festivals</a></li> -->
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">AI Planner</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+        <a href="contact.html" class="plan-trip-btn">Plan Trip</a>
+        <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+  </header>
+
+  <!-- Hero Section (Existing) -->
+  <section class="jh-hero">
+    <div class="jh-hero-content">
+      <div class="jh-hero-left">
+        <h1>Discover Jharkhand’s Hidden Treasures</h1>
+        <p>Forests, waterfalls, temples & culture — everything in one journey.</p>
+        <form class="search-bar">
+          <input type="text" placeholder="Search attractions..." />
+          <button type="submit">Search</button>
+        </form>
+        <p class="trust-text">Trusted by thousands of travelers each year</p>
+      </div>
+      <div class="jh-hero-slider">
+        <img src="https://picsum.photos/seed/nature/600/450" alt="Jharkhand Nature" class="active">
+        <img src="https://picsum.photos/seed/waterfall/600/450" alt="Jharkhand Waterfall">
+        <img src="https://picsum.photos/seed/temple/600/450" alt="Jharkhand Temple">
+        <img src="https://picsum.photos/seed/culture/600/450" alt="Jharkhand Culture">
+        <img src="https://picsum.photos/seed/food/600/450" alt="Jharkhand Food">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About Intro Section -->
+    <section class="site-section about-intro">
+        <div class="section-container">
+            <div class="about-intro-content">
+                <div class="about-text">
+                    <h2 class="section-title">Welcome to Jharkhand</h2>
+                    <p class="section-subtitle">The Land of Forests</p>
+                    <p>Carved out of Bihar in 2000, Jharkhand is a state brimming with natural beauty. From the dense Sal forests and rolling hills of the Chota Nagpur Plateau to its mesmerizing waterfalls and rich mineral reserves, this land offers a unique blend of nature and indigenous culture. Discover ancient temples, vibrant tribal traditions, and serene landscapes waiting to be explored.</p>
+                    <a href="about.html" class="btn-learn-more">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://picsum.photos/seed/about-jharkhand/500/350" alt="Scenic view of Jharkhand">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Destinations Section -->
+    <section class="site-section destinations-preview">
+        <div class="section-container">
+            <h2 class="section-title">Top Destinations</h2>
+            <div class="dest-grid">
+                <div class="dest-card"><img src="https://picsum.photos/seed/dassam-falls/400/300" alt="Dassam Falls"><h3>Dassam Falls</h3></div>
+                <div class="dest-card"><img src="https://picsum.photos/seed/baidyanath-temple/400/300" alt="Baidyanath Temple"><h3>Baidyanath Temple</h3></div>
+                <div class="dest-card"><img src="https://picsum.photos/seed/betla-park/400/300" alt="Betla National Park"><h3>Betla National Park</h3></div>
+                <div class="dest-card"><img src="https://picsum.photos/seed/patratu-valley/400/300" alt="Patratu Valley"><h3>Patratu Valley</h3></div>
+            </div>
+            <a href="destinations.html" class="btn-view-all">View All Destinations</a>
+        </div>
+    </section>
+
+    <!-- Culture & Festivals Highlight -->
+    <section class="site-section culture-preview">
+        <div class="section-container">
+            <h2 class="section-title">Culture & Festivals</h2>
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <img src="https://picsum.photos/seed/chhau-dance/400/300" alt="Chhau Dance">
+                    <h4>Chhau Dance</h4>
+                    <p>A vibrant martial dance form known for its elaborate masks and powerful movements.</p>
+                </div>
+                <div class="culture-card">
+                    <img src="https://picsum.photos/seed/sohrai-art/400/300" alt="Sohrai Art">
+                    <h4>Tribal Art</h4>
+                    <p>Explore traditional Sohrai and Khovar paintings, a cherished cultural heritage.</p>
+                </div>
+                <div class="culture-card">
+                    <img src="https://picsum.photos/seed/sarhul-festival/400/300" alt="Sarhul Festival">
+                    <h4>Sarhul Festival</h4>
+                    <p>The grand tribal festival celebrating nature and the arrival of the new year.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips Section -->
+    <section class="site-section travel-tips">
+        <div class="section-container">
+            <h2 class="section-title">Travel Tips</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">Best Time to Visit</div>
+                    <div class="accordion-content">
+                        <p>The ideal time to visit Jharkhand is during the winter months, from October to March, when the weather is cool and pleasant for sightseeing.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">Transportation</div>
+                    <div class="accordion-content">
+                        <p>Ranchi has the main airport connecting to major cities. The state is well-connected by railways. Local buses and taxis are available for internal travel.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">Safety & Health</div>
+                    <div class="accordion-content">
+                        <p>Always carry a basic first-aid kit. It's advisable to drink bottled water. While generally safe, avoid traveling to remote areas after dark.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="site-section gallery-preview">
+        <div class="section-container">
+            <h2 class="section-title">Glimpses of Jharkhand</h2>
+            <div class="gallery-grid-preview">
+                <img src="https://picsum.photos/seed/gallery1/300/200" alt="Gallery Image 1">
+                <img src="https://picsum.photos/seed/gallery2/300/200" alt="Gallery Image 2">
+                <img src="https://picsum.photos/seed/gallery3/300/200" alt="Gallery Image 3">
+                <img src="https://picsum.photos/seed/gallery4/300/200" alt="Gallery Image 4">
+            </div>
+            <a href="gallery.html" class="btn-view-all">View Full Gallery</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="site-section testimonials">
+        <div class="section-container">
+            <h2 class="section-title">What Travelers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The waterfalls are breathtaking! A must-visit for every nature lover. My trip to Jharkhand was unforgettable."</p>
+                    <h4>- Priya Sharma</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I was amazed by the rich tribal culture and the hospitality of the local people. The Sohrai art is beautiful."</p>
+                    <h4>- Rohan Gupta</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+      <div class="box-container">
+          <div class="box">
+              <h3>Jharkhand<span>Explorer</span> <i class="fa fa-globe"></i></h3>
+              <p>Feel free to follow us on our social media handlers. All the links are given below.</p>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>  
+          <div class="box">
+              <h3>Contact Info</h3>
+              <a href="#" class="footer-link"><i class="fa fa-phone"></i> +91 9798205836</a>
+              <a href="#" class="footer-link"><i class="fa fa-envelope"></i> kumarrahul11@gmail.com</a>
+              <a href="#" class="footer-link"><i class="fa fa-map-marker"></i> Ranchi, India</a>
+          </div>
+          <div class="box">
+              <h3>Quick Links</h3>
+              <a href="about.html" class="footer-link"><i class="fa fa-arrow-right"></i> About</a>
+              <a href="destinations.html" class="footer-link"><i class="fa fa-arrow-right"></i> Destinations</a>
+              <a href="gallery.html" class="footer-link"><i class="fa fa-arrow-right"></i> Gallery</a>
+              <a href="blog.html" class="footer-link"><i class="fa fa-arrow-right"></i> Blog</a>
+              <a href="contact.html" class="footer-link"><i class="fa fa-arrow-right"></i> Contact</a>
+          </div>
+      </div>
+      <div class="credit">
+        <p>Powered by Jharkhand Tourism Board</p>
+        Copyright © 2024 JharkhandExplorer. All rights reserved.
+      </div>
+  </footer>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
